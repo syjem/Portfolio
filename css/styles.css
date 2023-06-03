@@ -15,7 +15,8 @@
 
   --clr-light: #fff;
   --clr-dark: #0d0b0b;
-  --clr-accent: #16e0bd;
+  --clr-accent: #FF0060;
+  /* 16e0bd */
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -232,7 +233,7 @@ header {
   color: var(--clr-accent) !important;
   font-size: var(--fs-h3);
   display: none;
-  padding: 0.5em;
+  padding: 0.3em;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -424,7 +425,7 @@ header {
 .portfolio-img:hover,
 .portfolio-item:focus .portfolio-img {
   transform: scale(1.2);
-  opacity: 0.75;
+  opacity: 0.85;
 }
 
 /* ===== Footer ====== */
