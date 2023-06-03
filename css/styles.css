@@ -7,11 +7,11 @@
 /* ===== Custom Properties ===== */
 
 :root {
-  --ff-primary: "Source Sans Pro", sans-serif;
-  --ff-secondary: "Source Code Pro", monospace;
+  --ff-primary: 'Lora', serif;
+  --ff-secondary: 'Roboto Slab', serif;
 
-  --fw-reg: 300;
-  --fw-bold: 900;
+  --fw-reg: 400;
+  --fw-bold: 700;
 
   --clr-light: #fff;
   --clr-dark: #0d0b0b;
@@ -217,6 +217,7 @@ header {
   margin: 0;
   padding: 0;
   gap: 2em;
+  font-weight: var(--fw-bold);
 }
 
 .nav-link {
@@ -375,6 +376,7 @@ header {
 
   .section-title-about {
     grid-area: title;
+    text-align: start;
   }
 
   .section-subtitle-about {
@@ -385,6 +387,7 @@ header {
     width: calc(100% + 2em);
     padding-left: 1em;
     padding-right: calc(200px + 4em);
+    text-align: start;
   }
 
   .about-me-img {
