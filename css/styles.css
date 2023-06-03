@@ -356,6 +356,10 @@ header {
   box-shadow: var(--bs);
 }
 
+.section-title-about, .section-subtitle-about {
+  text-align: center;
+}
+
 @media screen and (min-width: 600px) {
   .about-me {
     display: grid;
