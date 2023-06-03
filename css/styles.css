@@ -51,6 +51,10 @@ body {
   line-height: 1.6;
 }
 
+header {
+  box-shadow: var(--bs);
+}
+
 header, footer, section {
   min-width: 350px;
 }
