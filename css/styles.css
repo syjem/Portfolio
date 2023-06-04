@@ -51,9 +51,9 @@ body {
   line-height: 1.6;
 }
 
-header {
+/* header {
   box-shadow: var(--bs);
-}
+} */
 
 header, footer, section {
   min-width: 350px;
@@ -89,6 +89,7 @@ strong {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  border-radius: 1px;
 }
 
 .btn:hover {
